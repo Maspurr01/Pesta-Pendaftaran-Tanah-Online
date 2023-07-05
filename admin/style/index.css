@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  background-image: url("/img/background.png");
+  backdrop-filter: blur(4px); /* Mengatur nilai blur sesuai kebutuhan */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.marquee-container {
+    padding: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .marquee-container marquee{
+    margin-top: 10%;
+    background-color: #C38154;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    color: white;
+
+  }
+  .gambar {
+    text-align: center;
+    margin-top: 7%;
+  }
+  
+  .gambar img {
+    width: 300px;
+    height: auto;
+  }

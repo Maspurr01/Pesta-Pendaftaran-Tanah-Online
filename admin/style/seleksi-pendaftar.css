@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .judul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+  }
+
+  .add-button {
+    padding: 8px 12px;
+    background-color: #c38154;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 1%;
+  }
+  
+  
+  /* Tabel */
+  .table-container {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 3%;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1.5px solid #ddd;
+    background-color: #ffffff;
+  }
+  
+  th,
+  td,
+  tr {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  thead th {
+    background-color: #f2f2f2;
+  }
+  
+  .detail-buttonn {
+    background-color: red;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .detail-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .detail-buttonnn {
+    background-color: #F86F03;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .detail-buttonn a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .detail-button a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .detail-buttonnn a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .detail-button:hover {
+    background-color: #eeeeee;
+  }
+  .detail-buttonn:hover {
+    background-color: #eeeeee;
+  }
+  .detail-buttonnn:hover {
+    background-color: #eeeeee;
+  }
+  
